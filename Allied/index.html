@@ -1,0 +1,1087 @@
+<!D		OCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Allied Aviation</title>
+		<link rel="stylesheet" href="style.css">
+		
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" />
+	</head>
+	<body>
+		
+		<div class="container">
+<!----------------------------------------------------------------------------------------------------------Aside------------------------------------------------------------->
+			<aside>			
+				<div class="top">
+					<div class="logo">
+						<img src="https://th.bing.com/th/id/OIP.5PKriqxRZceAYXiYiHhZAQAAAA?pid=ImgDet&rs=1">
+					</div>
+					
+					<div class="close" id="close-btn">
+						<span class="material-icons-sharp">close</span>
+					</div>
+				</div>
+
+				<div class="sidebar">	
+					<a href="#">
+						<span class="material-icons-sharp">home</span>
+						<h3>Home</h3>
+					</a>
+					<a href="#" class="active">
+						<span class="material-icons-sharp">send_to_mobile</span>
+						<h3>Dispatch</h3>
+					</a>
+					<a href="#">
+						<span class="material-icons-sharp">person</span>
+						<h3>Admin</h3>
+					</a>
+					<a href="#">
+						<span class="material-icons-sharp">build</span>
+						<h3>Maintenance</h3>
+					</a>
+					<a href="#">
+						<span class="material-icons-sharp">oil_barrel</span>
+						<h3>Tank Farm</h3>
+					</a>
+					<a href="#">
+						<span class="material-icons-sharp">local_gas_station</span>
+						<h3>GSE</h3>
+					</a>
+					<a href="#">
+						<span class="material-icons-sharp">menu_book</span>
+						<h3>Training</h3>
+					</a>
+					<a href="#">
+						<span class="material-icons-sharp">summarize</span>
+						<h3>Reports</h3>
+					</a>
+					<a href="#">
+						<span class="material-icons-sharp">settings</span>
+						<h3>Settings</h3>
+					</a>
+					<a href="#">
+						<span class="material-icons-sharp">logout</span>
+						<h3>Logout</h3>
+					</a>
+				</div>
+			</aside>
+<!----------------------------------------------------------------------------------------------------------Main-------------------------------------------------------------->
+			<main>
+				<div class="header">
+					<div class="Title">
+						<h1>Dispatch</h1>
+					</div>
+					<div class="date">
+						<input type="date" name="Date" id="date">
+					</div>
+					<div class="add-flight">
+						<h2>Add Flight</h2>
+					</div>
+					<div class="clock">
+						<h1>15:00</h1>
+					</div>
+					<div class="density">
+						<h1>6.54</h1>
+					</div>
+				</div>
+				
+				<div class="flight-board">
+					<table>
+						<thead>
+							<tr>
+								<th><span class="material-icons-sharp">
+									airlines
+									</span>
+									<h3>Airline</h3>
+								</th>
+								<th><span class="material-icons-sharp">
+									flight_land
+									</span><h3>Inbound</h3>
+								</th>
+								<th><span class="material-icons-sharp">
+									flight
+									</span><h3>Aircraft</h3>
+								</th>
+								<th><span class="material-icons-sharp">
+									flight_takeoff
+									</span>
+									<h3>Outbound</h3>
+								</th>
+								<th><span class="material-icons-sharp">
+									comment
+									</span>
+									<h3>Comment</h3>
+								</th>
+								<th><span class="material-icons-sharp">
+									sensor_door
+									</span>
+									<h3>Gate</h3>
+								</th>
+								<th><span class="material-icons-sharp">
+									face
+									</span>
+									<h3>Fueler</h3>
+								</th>
+								<th><span class="material-icons-sharp">
+									assignment_ind
+									</span>
+									<h3>Fueler On</h3>
+								</th>
+								<th><span class="material-icons-sharp">
+									assignment_turned_in
+									</span>
+									<h3>Fueler Off</h3>
+								</th>
+							</tr>
+						</thead>
+						<div class="scroll">
+							<tbody>
+								<tr class="row primary">
+									<td>Southwest</td>
+									<td><span class="flight-info">WN123</span><br>14:35</td>
+									<td><span class="flight-info">N456WN</span><br>B737</td>
+									<td><span class="flight-info">WN123</span><br>15:20</td>
+									<td><input type="text" class="comment" placeholder="Add"></td>
+									<td><input type="text" class="gate" placeholder="Add"></td>
+									<td><input type="text" class="fueler" placeholder="Assign"></td>
+									<td><input type="text" class="fueler-on" placeholder="Add"><br><input type="text" class="cal" placeholder="Add"></td>
+									<td><input type="text" class="fueler-off" placeholder="Add"><br><input type="text" class="act" placeholder="Add"></td>
+								</tr>
+								<tr class="row success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="danger">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="warning">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="warning">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="danger">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="danger">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="warning">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="warning">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="danger">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="danger">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="warning">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="warning">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="danger">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="danger">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="warning">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="warning">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="danger">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="success">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+								<tr class="primary">
+									<td>Southwest</td>
+									<td>WN123 14:35</td>
+									<td>N456WN</td>
+									<td>WN124 15:20</td>
+									<td></td>
+									<td>A13</td>
+									<td>Anthony Rice</td>
+									<td>14:38 1925</td>
+									<td>14:55 1973</td>
+								</tr>
+
+								
+							</tbody>
+						</div>
+					</table>
+				</div>
+			</main>
+<!----------------------------------------------------------------------------------------------------------Right------------------------------------------------------------->
+			<div class="right">
+				<div class="top">
+					<button id="menu-byn">
+						<span class="material-icons-sharp">menu</span>
+					</button>
+					<div class="theme-toggler">
+						<span class="material-icons-sharp active">light_mode</span>
+						<span class="material-icons-sharp">dark_mode</span>
+					</div>
+					<div class="profile">
+						<div class="info">
+							<p>Hello, <b>Anthony</b></p>
+							<small class="text-muted">Admin</small>
+						</div>
+						<div class="profile-photo">
+							<img src="images/profile-2.jpg" alt="@">
+						</div>
+					</div>
+				</div>
+				<!------------------------------------------------------------------------------------------Top------------------------------------->
+				<div class="trucks">	
+					<div class="truck warning">
+						<div class="icon">
+							<div class="truck-number"><h2>19</h2></div>
+						</div>
+						<div class="fueler">Anthony Rice</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location">Load Rack</div>
+					</div>
+					<div class="truck warning">
+						<div class="icon">
+							<div class="truck-number"><h2>20</h2></div>
+						</div>
+						<div class="fueler">Josh Wiseman</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location">Load Rack</div>
+					</div>
+					<div class="truck success">
+						<div class="icon">
+							<div class="truck-number"><h2>28</h2></div>
+						</div>
+						<div class="fueler">Robert Collins</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location">On Flight</div>
+					</div>
+					<div class="truck primary">
+						<div class="icon">
+							<div class="truck-number"><h2>29</h2></div>
+						</div>
+						<div class="fueler">Ronnie Sendejo</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location">On Standby</div>
+					</div>
+					<div class="truck primary">
+						<div class="icon">
+							<div class="truck-number"><h2>61</h2></div>
+						</div>
+						<div class="fueler">Open</div>
+						<div class="fuel-left"><span class="gallons">10000</span><small class="text-muted"> Gallons</small></div>
+						<div class="location"></div>
+					</div>
+					<div class="truck success">
+						<div class="icon">
+							<div class="truck-number"><h2>62</h2></div>
+						</div>
+						<div class="fueler">Sergio Flores</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location">On Flight</div>
+					</div>	
+					<div class="truck success">
+						<div class="icon">
+							<div class="truck-number"><h2>71</h2></div>
+						</div>
+						<div class="fueler">Steven McQueen</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location">On Flight</div>
+					</div>
+					<div class="truck primary">
+						<div class="icon">
+							<div class="truck-number"><h2>72</h2></div>
+						</div>
+						<div class="fueler">Open</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location"></div>
+					</div>
+					<div class="truck success">
+						<div class="icon">
+							<div class="truck-number"><h2>83</h2></div>
+						</div>
+						<div class="fueler">Trumaine White</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location">On Flight</div>
+					</div>
+					<div class="truck primary">
+						<div class="icon">
+							<div class="truck-number"><h2>94</h2></div>
+						</div>
+						<div class="fueler">Jesus Flores</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location">On Standby</div>
+					</div>
+					<div class="truck danger">
+						<div class="icon">
+							<div class="truck-number"><h2>106</h2></div>
+						</div>
+						<div class="fueler">Out of Service</div>
+						<div class="fuel-left"><span class="gallons">10000</span><small class="text-muted"> Gallons</small></div>
+						<div class="location"></div>
+					</div>
+					<div class="truck success">
+						<div class="icon">
+							<div class="truck-number"><h2>110</h2></div>
+						</div>
+						<div class="fueler">Jorge Bernal</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location">On Flight</div>
+					</div>
+					<div class="truck primary">
+						<div class="icon">
+							<div class="truck-number"><h2>900</h2></div>
+						</div>
+						<div class="fueler">Open</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location"></div>
+					</div>
+					<div class="truck danger">
+						<div class="icon">
+							<div class="truck-number"><h2>903</h2></div>
+						</div>
+						<div class="fueler">Out of Service</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location"></div>
+					</div>
+					<div class="truck danger">
+						<div class="icon">
+							<div class="truck-number"><h2>5162</h2></div>
+						</div>
+						<div class="fueler">Out of Service</div>
+						<div class="fuel-left"><span class="gallons">4567</span><small class="text-muted"> Gallons</small></div>
+						<div class="location"></div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
